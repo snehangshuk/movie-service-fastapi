@@ -54,6 +54,9 @@ coverage.xml
 *.mo
 *.pot
 
+# SQLite
+movie_db
+
 # Django stuff:
 *.log
 local_settings.py
