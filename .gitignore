@@ -54,9 +54,6 @@ coverage.xml
 *.mo
 *.pot
 
-# Sqlite stuff:
-movie_db
-
 # Django stuff:
 *.log
 local_settings.py
@@ -136,4 +133,3 @@ __blobstorage__
 __queuestorage__
 __azurite_db*__.json
 .python_packages
-.azure
