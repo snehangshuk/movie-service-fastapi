@@ -1,8 +1,8 @@
 from fastapi import HTTPException, APIRouter
 from typing import List
 
-from app.api.models import MovieIn, MovieOut
-from app.api import db_manager
+from movie_service.api.models import MovieIn, MovieOut
+from movie_service.api import db_manager
 
 
 movies = APIRouter()

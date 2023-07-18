@@ -1,5 +1,5 @@
-from app.api.models import MovieIn
-from app.api.db import movies, database
+from movie_service.api.models import MovieIn
+from movie_service.api.db import movies, database
 from fastapi.encoders import jsonable_encoder
 
 
