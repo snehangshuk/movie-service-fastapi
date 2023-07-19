@@ -2,7 +2,7 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "python.formatting.provider": "none",
+  "python.formatting.provider": "black",
   "azureFunctions.deploySubpath": ".",
   "azureFunctions.scmDoBuildDuringDeployment": true,
   "azureFunctions.pythonVenv": "env",

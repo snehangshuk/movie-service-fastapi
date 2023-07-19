@@ -5,7 +5,10 @@ from movie_service.api.models import MovieIn, MovieOut
 from movie_service.api import db_manager
 
 
-movies = APIRouter()
+movies = APIRouter(
+    prefix='/movies',
+    tags=['movies']
+)
 
 
 @movies.get('/', response_model=List[MovieOut])
